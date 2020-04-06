@@ -4,7 +4,7 @@ SC =source
 
 default: junit clean compile run
 junit:
-	$(SC) ~./bash_profile
+	$(SC) ~/.bash_profile
 clean:
 	rm *.class
 compile:
