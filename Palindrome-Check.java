@@ -1,4 +1,4 @@
-class Palindrome-Check{
+class PalindromeCheck{
   public static boolean isPalindrome(String str) {
     // Write your code here.
 		if (str.length() == 1){
