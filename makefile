@@ -6,7 +6,7 @@ default: junit clean compile run
 junit:
 	$(SC) ~/.bash_profile
 clean:
-	rm *.class
+	rm -f *.class
 compile:
 	$(JC) *.java
 run:
